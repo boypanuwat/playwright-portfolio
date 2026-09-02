@@ -1,0 +1,25 @@
+{
+  "name": "playwright-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test:qa-practice": "playwright test --project=qa-practice",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@playwright/test": "^1.46.0",
+    "@types/node": "^20.14.0",
+    "eslint": "^9.9.0",
+    "typescript": "^5.5.0",
+    "typescript-eslint": "^8.1.0"
+  }
+}

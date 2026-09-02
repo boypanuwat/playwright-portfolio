@@ -1,0 +1,11 @@
+node_modules/
+playwright-report/
+test-results/
+.env
+.DS_Store
+AGENTS.md
+CLAUDE.md
+CONTRIBUTING.md
+skill-codex/
+requirement.md
+testcase.md
